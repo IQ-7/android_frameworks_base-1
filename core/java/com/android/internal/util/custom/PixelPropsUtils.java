@@ -57,6 +57,10 @@ public class PixelPropsUtils {
     };
 
     private static final String[] packagesToKeep = {
+        "com.google.android.apps.cameralite",
+        "com.google.android.apps.youtube.kids",
+        "com.google.android.apps.youtube.music",
+        "com.google.android.dialer",
         "com.google.android.GoogleCamera",
         "com.google.android.GoogleCamera.Cameight",
         "com.google.android.GoogleCamera.Go",
@@ -67,8 +71,7 @@ public class PixelPropsUtils {
         "com.google.android.GoogleCameraEng2",
         "com.google.android.MTCL83",
         "com.google.android.UltraCVM",
-        "com.google.android.apps.cameralite",
-        "com.google.android.dialer"
+        "com.google.android.youtube"
     };
 
     private static final String[] streamingPackagesToChange = {
